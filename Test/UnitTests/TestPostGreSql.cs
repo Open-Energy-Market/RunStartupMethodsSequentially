@@ -4,14 +4,10 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Npgsql;
-using Respawn;
 using RunMethodsSequentially.LockAndRunCode;
 using Test.EfCore;
-using Test.Helpers;
 using TestSupport.Attributes;
 using TestSupport.EfHelpers;
-using TestSupport.Helpers;
 using Xunit;
 using Xunit.Abstractions;
 using Xunit.Extensions.AssertExtensions;
